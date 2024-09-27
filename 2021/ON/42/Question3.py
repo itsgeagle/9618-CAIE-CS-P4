@@ -58,4 +58,5 @@ def InOrder(arr, root):
     if arr[root][2] != -1:
         InOrder(arr, arr[root][2])
 
+
 InOrder(ArrayNodes, RootPointer)
