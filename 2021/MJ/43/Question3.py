@@ -1,5 +1,11 @@
 # Question 3 (a) - declare class TreasureChest
 class TreasureChest:
+
+    # Write attribute declarations as comments, as requested by question paper
+    # Private question : String
+    # Private answer : Integer
+    # Private points : Integer
+
     def __init__(self, theQuestion, theAnswer, thePoints):  # Create constructor
         self.question = theQuestion  # Define value of question
         self.answer = theAnswer  # Define value of answer
